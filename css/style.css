@@ -9,9 +9,8 @@
   src: url(../fontface/Roboto/static/Roboto-Regular.ttf);
 }
 
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url(../fontface/Roboto/static/Roboto-Bold.ttf);
+* {
+  font-family: "Roboto-Regular";
 }
 
 .btn-info {
@@ -41,10 +40,7 @@ body {
   color: rgb(185, 185, 185);
 }
 
-/* nav bar stying start */
-.navbar {
-  font-family: "Roboto-Regular";
-}
+/* nav bar styling start */
 
 .nav-link {
   border: 2px solid transparent;
@@ -66,7 +62,7 @@ body {
   margin-inline: 5px;
   text-align: center;
 }
-/* nav bar stying end */
+/* nav bar styling end */
 
 .tagline {
   font-size: 0.6rem;
@@ -80,7 +76,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* card stying start */
+/* card styling start */
 .card {
   border-color: #2d303d;
   background-color: #2d303d;
@@ -95,7 +91,7 @@ body {
 .card-footer {
   background-color: #333645;
 }
-/* card stying end */
+/* card styling end */
 
 .icon {
   height: 40px;
