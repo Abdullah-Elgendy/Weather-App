@@ -1,0 +1,110 @@
+:root {
+  --bs-primary-rgb: 30, 32, 43;
+  --bs-secondary-rgb: 37, 40, 54;
+  --bs-info: rgb(13, 175, 207);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fontface/Roboto/static/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fontface/Roboto/static/Roboto-Bold.ttf);
+}
+
+.btn-info {
+  --bs-btn-color: white;
+  --bs-btn-bg: rgb(13, 175, 207);
+  --bs-btn-border-color: #0dcaf0;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: #31d2f2;
+  --bs-btn-hover-border-color: #25cff2;
+  --bs-btn-focus-shadow-rgb: 11, 172, 204;
+  --bs-btn-active-color: white;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.input-group input,
+.input-group input:focus {
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.input-group input::placeholder {
+  opacity: 0.5;
+  color: rgb(185, 185, 185);
+}
+
+/* nav bar stying start */
+.navbar {
+  font-family: "Roboto-Regular";
+}
+
+.nav-link {
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--bs-info);
+  border: 2px solid var(--bs-info);
+}
+
+.nav-link:focus {
+  border: 2px solid var(--bs-info);
+}
+
+#navbarNav .nav-link {
+  padding-inline: 20px;
+  margin-inline: 5px;
+  text-align: center;
+}
+/* nav bar stying end */
+
+.tagline {
+  font-size: 0.6rem;
+  color: rgb(199, 199, 199);
+}
+
+#weatherReport {
+  background-image: url(../imgs/imgi_6_banner.png);
+  background-position: top;
+  background-size: fit;
+  background-repeat: no-repeat;
+}
+
+/* card stying start */
+.card {
+  border-color: #2d303d;
+  background-color: #2d303d;
+  min-height: 400px;
+}
+
+.card-header {
+  background-color: #2d303d;
+}
+
+.card-body,
+.card-footer {
+  background-color: #333645;
+}
+/* card stying end */
+
+.icon {
+  height: 40px;
+  width: 40px;
+  color: var(--bs-info);
+  text-decoration: none;
+}
+
+.icon:hover {
+  --bs-primary-rgb: 13, 175, 207;
+  color: rgb(255, 255, 255);
+}
