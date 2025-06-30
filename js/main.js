@@ -1,5 +1,5 @@
 const apiKey = "20319a3a293e4706b2530211252906";
-let baseURL = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}`;
+let baseURL = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}`;
 let inputLocation = document.querySelector("#inputLocation");
 let findLocation = document.querySelector("#findLocation");
 let weatherReport = document.querySelector("#weatherReport");
