@@ -69,7 +69,7 @@ body {
   color: rgb(199, 199, 199);
 }
 
-#weatherReport {
+main {
   background-image: url(../imgs/imgi_6_banner.png);
   background-position: top;
   background-size: fit;
